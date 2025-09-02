@@ -17,7 +17,7 @@ const Avatar = () => (
 
 const UserName = () => (
     <h3 style={{ color: '#252f5eff', margin: '10px 0' }}>
-        Thanaset
+        Thanaset Yimprasert
     </h3>
 );
 

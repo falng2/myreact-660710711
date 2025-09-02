@@ -3,10 +3,13 @@ import React from 'react';
 const TodoList = () => {
     // ข้อมูลที่จะแสดง
     const todos = [
-        { id: 1, text: 'Get A', completed: true },
-        { id: 2, text: 'Successful', completed: true },
-        { id: 3, text: 'Get a job', completed: true },
-        { id: 4, text: 'Get rich', completed: true }
+        { id: 1, text: 'Day 1 eat breakfast', completed: true },
+        { id: 2, text: 'Day 2 wake up', completed: true },
+        { id: 3, text: 'Day 3 eat lunch', completed: true },
+        { id: 4, text: 'Day 4 walk', completed: true },
+        { id: 5, text: 'Day 5 sleep', completed: true },
+        { id: 6, text: 'Day 6 go outside', completed: false },
+        { id: 7, text: 'Day 7 sit', completed: true },
     ];
     
     // คำนวณสถิติ
