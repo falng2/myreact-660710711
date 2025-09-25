@@ -3,6 +3,9 @@ import {Link, useNavigate} from "react-router-dom";
 
 const NotFound = () => {
     const navigate = useNavigate();
+    const goHome = () => {
+        navigate('/');
+    }
 
     return (
         <div>
@@ -12,4 +15,4 @@ const NotFound = () => {
     )
 }
 
-export default Notfound;
+export default NotFound;
